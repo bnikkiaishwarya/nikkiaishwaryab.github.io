@@ -86,7 +86,7 @@ import nexusAiCaseStudyPage from "@/assets/nexus-ai-case-study-page.jpg.asset.js
 import eatoCaseStudyPage from "@/assets/eato-case-study-page.jpg.asset.json";
 import macosWallpaper from "@/assets/wallpaper-colorful.jpg.asset.json";
 import claudeTemplatesCaseStudyPage from "@/assets/claude-templates-case-study-page.jpg.asset.json";
-import buyTemplatesCaseStudyPage from "@/assets/buy-templates-case-study-page.jpg.asset.json";
+
 import brightnessIcon from "@/assets/brightness-and-contrast.png.asset.json";
 
 
@@ -1599,7 +1599,7 @@ const FOLDER_CASE_STUDIES: Record<string, { pdf: string; thumb: string; pages?: 
     thumb: "/case-studies/thumbs/the-mind.jpg",
     pages: ["/assets/the-mind-page-1.png"],
   },
-  "Buy Templates": { pdf: "/case-studies/buy-templates.pdf", thumb: "/case-studies/thumbs/buy-templates.jpg", pages: [buyTemplatesCaseStudyPage.url] },
+
   "VisaProcess": {
     pdf: "/case-studies/visa-process.pdf",
     thumb: "/case-studies/thumbs/visa-process.jpg",
@@ -1607,7 +1607,7 @@ const FOLDER_CASE_STUDIES: Record<string, { pdf: string; thumb: string; pages?: 
   },
   "Eato": { pdf: "/case-studies/eato.pdf", thumb: "/case-studies/thumbs/eato.jpg", pages: ["/assets/eato-page-1.png"] },
   "Nexus AI": { pdf: "/case-studies/nexus-ai.pdf", thumb: "/case-studies/thumbs/nexus-ai.jpg", pages: ["/assets/nexus-ai-page-1.png"] },
-  "Claude Templates": { pdf: "/case-studies/claude-templates.pdf", thumb: "/case-studies/thumbs/claude-templates.jpg", pages: ["/assets/claude-templates-page-1.png"] },
+
 };
 
 function FinderWindow({ onClose, initialFolder = null }: { onClose: () => void; initialFolder?: string | null }) {
